@@ -21,7 +21,7 @@ contact1.addEventListener("mouseover", (e) =>{
     contact1.style.display = "none";
     contact2.style.display = "inline-flex";
 
-    ComputerImage = "images/preview/linkedin.png";
+    ComputerImage = "images/preview/linkedin.jpg";
     whitenoise();
 });
 contact2.addEventListener("mouseout", (e) =>{
@@ -61,19 +61,19 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[0].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/gameshow.png";
+        ComputerImage = "images/preview/gameshow.jpg";
         whitenoise();
     });
     buttons[1].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/8employeedirectory.png";
+        ComputerImage = "images/preview/8employeedirectory.jpg";
         whitenoise();
     });
     buttons[2].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/7dashboard.png";
+        ComputerImage = "images/preview/7dashboard.jpg";
         whitenoise();
     });
     buttons[3].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/5InteractivePhotoGallery.png";
+        ComputerImage = "images/preview/5InteractivePhotoGallery.jpg";
         whitenoise();
     });
     buttons[4].addEventListener("mouseover", (e) =>{
