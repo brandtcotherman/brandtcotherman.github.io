@@ -3,7 +3,7 @@ nav{
     background-color: white;
 }
 .img-cotherman{
-    width:200px;
+    width:185px;
 }
 .btn{
     border: 3px solid black;
@@ -47,7 +47,8 @@ hr {
 
 .deskCard{
     border: 3px solid black;
-    height: 2rem;
+    min-height: 2em;
+    max-height: fit-content;
 }
 
 .Image{
@@ -57,3 +58,9 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+
+.collapseCard{
+    height: auto;
+    width: auto;
+}
+

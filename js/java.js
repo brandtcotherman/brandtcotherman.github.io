@@ -40,7 +40,7 @@ gameboy1.addEventListener("mouseover", (e) =>{
     gameboy1.style.display = "none";
     gameboy2.style.display = "inline-flex";
 
-    ComputerImage = "images/preview/TGDefense.jpg";
+    ComputerImage = "images/preview/TGWatchtower.jpg";
     whitenoise();
 });
 gameboy2.addEventListener("mouseout", (e) =>{
@@ -51,10 +51,11 @@ gameboy2.addEventListener("mouseout", (e) =>{
     whitenoise();
 });
 
-//HOVER on BUTTONS CODE
+//HOVER + Click on BUTTONS CODE
 var computer = document.getElementById('computer');
 var buttons = document.querySelectorAll(".btn");
 
+//HOVER
 for(var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("mouseout", (e) =>{
         ComputerImage = "images/preview/standby.gif";
@@ -77,9 +78,8 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[4].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/SOS.jpg";
+        ComputerImage = "images/preview/TGDefense.jpg";
         whitenoise();
-
     });
     buttons[5].addEventListener("mouseover", (e) =>{
         ComputerImage = "images/preview/Santana.jpg";
