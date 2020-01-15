@@ -82,7 +82,7 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[5].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/Santana.jpg";
+        ComputerImage = "images/preview/Skills.jpg";
         whitenoise();
     });
 }
@@ -96,19 +96,15 @@ function updateIMG( )
     count+=1;//use an increasing counter
     if(count===0){
         poster.src = "images/art/DieterRams.jpg";
-        //https://www.behance.net/gallery/85147885/Dieter-Rams-10-Principles-of-Good-Design
     } 
     if(count===1){
         poster.src = "images/art/Loewy.jpg";
-        //https://www.behance.net/gallery/89539503/Raymond-Loewy
     } 
     if(count===2){
         poster.src = "images/art/BMW.jpg";
-        //https://www.behance.net/gallery/55697803/BMW-528e-Couch
     } 
     if(count===3){
         poster.src = "images/art/BMWRider.jpg";
-        //https://www.behance.net/gallery/55697731/BMW-Cafe-Racer
     } 
     if(count===4){//reset counter 
         count=0;
