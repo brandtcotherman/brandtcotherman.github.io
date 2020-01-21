@@ -78,10 +78,14 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[4].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/TGDefense.jpg";
+        ComputerImage = "images/preview/webstyleguideproject4.jpg";
         whitenoise();
     });
     buttons[5].addEventListener("mouseover", (e) =>{
+        ComputerImage = "images/preview/TGDefense.jpg";
+        whitenoise();
+    });
+    buttons[6].addEventListener("mouseover", (e) =>{
         ComputerImage = "images/preview/Skills.jpg";
         whitenoise();
     });
