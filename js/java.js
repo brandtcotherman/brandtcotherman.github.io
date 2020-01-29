@@ -20,16 +20,10 @@ contact2.style.display = "none";
 contact1.addEventListener("mouseover", (e) =>{
     contact1.style.display = "none";
     contact2.style.display = "inline-flex";
-
-    ComputerImage = "images/preview/linkedin.jpg";
-    whitenoise();
 });
 contact2.addEventListener("mouseout", (e) =>{
     contact2.style.display = "none";
     contact1.style.display = "inline-flex";
-
-    ComputerImage = "images/preview/standby.gif";
-    whitenoise();
 });
 
 var gameboy1 = document.getElementById('gameboy1');
@@ -83,10 +77,6 @@ for(var i = 0; i < buttons.length; i++) {
     });
     buttons[5].addEventListener("mouseover", (e) =>{
         ComputerImage = "images/preview/TGDefense.jpg";
-        whitenoise();
-    });
-    buttons[6].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/Skills.jpg";
         whitenoise();
     });
 }
