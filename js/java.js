@@ -34,7 +34,7 @@ gameboy1.addEventListener("mouseover", (e) =>{
     gameboy1.style.display = "none";
     gameboy2.style.display = "inline-flex";
 
-    ComputerImage = "images/preview/TGWatchtower.jpg";
+    ComputerImage = "images/preview/TGWatchtower.gif";
     whitenoise();
 });
 gameboy2.addEventListener("mouseout", (e) =>{
@@ -76,7 +76,7 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[5].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/TGDefense.jpg";
+        ComputerImage = "images/preview/TGDefense.gif";
         whitenoise();
     });
 }
@@ -95,12 +95,15 @@ function updateIMG( )
         poster.src = "images/art/Loewy.jpg";
     } 
     if(count===2){
-        poster.src = "images/art/BMW.jpg";
+        poster.src = "images/art/Eames.jpg";
     } 
     if(count===3){
-        poster.src = "images/art/BMWRider.jpg";
+        poster.src = "images/art/SOSGuitar.jpg";
     } 
-    if(count===4){//reset counter 
+    if(count===4){
+        poster.src = "images/art/SOSVocals.jpg";
+    } 
+    if(count===5){//reset counter 
         count=0;
     } 
 }
