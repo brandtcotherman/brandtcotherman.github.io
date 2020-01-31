@@ -11,38 +11,43 @@ nav a{
 .btn{
     border: 3px solid black;
 }
-
+.btnPC{
+    width: 125px;
+    height: 42px;
+}
 hr {
     border-top: 3px solid black;
-  }
+}
 
-.card{
+
+.contContainer{
     border: 3px solid black;
+    height:fit-content;
+    width:fit-content;
+}
+.contInnerContainer{
+    border: 3px solid black;
+    background-color: rgb(58, 56, 56);
+    display:flex;
+    text-align: center;
+}
+.card {
     height: 20rem;
     width: 35rem;
 }
-.innerCard{
-    border: 3px solid black;
+.innerComputer{
     height: 16rem;
-    text-align: center;
-    background-color: rgb(58, 56, 56);
-    display:flex;
-}
-
-.poster{
-    border: 3px solid black;
-    height: 310px;
-    width: 230px;
 }
 .innerPoster{
-    border: 3px solid black;
-    height: 16rem;
-    text-align: center;
-    background-color: rgb(58, 56, 56);
     max-width: 176px;
     height: 256px;
-    display:flex;
 }
+.innerProfile{
+    height: fit-content;
+    width: fit-content;
+}
+
+
 
 .icon{
     align-self: flex-end;
