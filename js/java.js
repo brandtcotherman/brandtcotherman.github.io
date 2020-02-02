@@ -80,30 +80,3 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
 }
-
-//Poster img src updates every 5 seconds
-var poster = document.getElementById('poster');
-var count=0;
-setInterval(updateIMG, 5000);
-function updateIMG( )
-{
-    count+=1;//use an increasing counter
-    if(count===0){
-        poster.src = "images/art/DieterRams.jpg";
-    } 
-    if(count===1){
-        poster.src = "images/art/Loewy.jpg";
-    } 
-    if(count===2){
-        poster.src = "images/art/Eames.jpg";
-    } 
-    if(count===3){
-        poster.src = "images/art/SOSGuitar.jpg";
-    } 
-    if(count===4){
-        poster.src = "images/art/SOSVocals.jpg";
-    } 
-    if(count===5){//reset counter 
-        count=0;
-    } 
-}
