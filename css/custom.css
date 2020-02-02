@@ -19,9 +19,9 @@ hr {
     border-top: 3px solid black;
 }
 
-.poster:hover{
-background-color: #e2e6ea;
-border-color: #dae0e5;
+.profile:hover,.poster:hover{
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
 }
 .contContainer{
     border: 3px solid black;
