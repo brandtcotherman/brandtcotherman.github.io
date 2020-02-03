@@ -5,6 +5,16 @@ nav a{
     color:black;
     font-weight: bold;
 }
+
+.nav-link{
+    font-size: 0.7rem;
+}
+@media(min-width:375px){
+    .nav-link{
+        font-size: 1rem;
+    }
+}
+
 .img-cotherman{
     width:185px;
 }
@@ -45,8 +55,7 @@ hr {
     height: 243px;
 }
 .innerProfile{
-    height: fit-content;
-    width: 200px;
+    height: 10rem;
 }
 
 
