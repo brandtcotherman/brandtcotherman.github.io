@@ -8,12 +8,9 @@ nav a{
 .img-cotherman{
     width:185px;
 }
-.btn{
+.btn,.btn-sm{
     border: 3px solid black;
-}
-.btnPC{
-    width: 125px;
-    height: 42px;
+    font-weight: 500;
 }
 hr {
     border-top: 3px solid black;

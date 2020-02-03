@@ -47,7 +47,7 @@ gameboy2.addEventListener("mouseout", (e) =>{
 
 //HOVER + Click on BUTTONS CODE
 var computer = document.getElementById('computer');
-var buttons = document.querySelectorAll(".btn");
+var buttons = document.querySelectorAll(".btn-sm");
 
 //HOVER
 for(var i = 0; i < buttons.length; i++) {
