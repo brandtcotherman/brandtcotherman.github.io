@@ -68,7 +68,7 @@ for(var i = 0; i < buttons.length; i++) {
         whitenoise();
     });
     buttons[3].addEventListener("mouseover", (e) =>{
-        ComputerImage = "images/preview/5InteractivePhotoGallery.jpg";
+        ComputerImage = "images/preview/DonutsDragons.gif";
         whitenoise();
     });
     buttons[4].addEventListener("mouseover", (e) =>{
